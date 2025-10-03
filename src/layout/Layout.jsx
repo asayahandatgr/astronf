@@ -1,6 +1,5 @@
-import Navbar from '../components/Navbar/Navbar'
-import Footer from '../components/Footer/Footer'
-import Container from '../components/Container/Index'
+import Container from '../component/Container/Index'
+import Navbar from '../component/Navbar/Navbar'
 
 const Layout = ({children}) => {
   return (
@@ -11,7 +10,6 @@ const Layout = ({children}) => {
             {children}
           </Container>
         </main>
-      <Footer />
     </div>
   )
 }
