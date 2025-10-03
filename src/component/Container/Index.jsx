@@ -1,10 +1,9 @@
-import React from 'react'
-const Index = ({children}) => {
+const Container = ({children}) => {
   return (
-    <Container className="max-w-7xl mx-auto p-4">
-        {children}
-    </Container>
+    <div className="mx-5 px-1">
+      {children}
+    </div>
   )
 }
 
-export default Index
+export default Container
