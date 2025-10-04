@@ -1,6 +1,6 @@
 const Container = ({children}) => {
   return (
-    <div className="mx-5 px-1">
+    <div className="w-full m-0 p-0">
       {children}
     </div>
   )

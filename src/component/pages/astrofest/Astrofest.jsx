@@ -1,7 +1,11 @@
+import Astrofes from "../../Astrofest/Index"
+
 const Astrofest = () => {
   return (
     <div>
-      <h1>Astrofest</h1>
+      <section>
+        <Astrofes />
+      </section>
     </div>
   )
 }

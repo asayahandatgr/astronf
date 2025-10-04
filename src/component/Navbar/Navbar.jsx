@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router";
-import logoAstro from "../../../public/logo/astro.png";
+import logoAstro from "../../../public/assets/logo/astro.png";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const links = [
     { title: "Home", path: "/" },
-    { title: "ASTRO FEST", path: "/astrofest" },
+    { title: "Astro Fest", path: "/astrofest" },
     { title: "Competition", path: "/competition" },
     { title: "Partner", path: "/partner" },
   ];

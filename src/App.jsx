@@ -4,7 +4,7 @@ import Layout from "./layout/Layout";
 import Home from "./component/pages/home/Home";
 import Astrofest from "./component/pages/astrofest/Astrofest";
 import Competition from "./component/pages/competition/Competition";
-import Navbar from "./component/Navbar/Navbar";
+import Sport from "./component/pages/competition/Sport";
 
 
 
@@ -17,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/astrofest" element={<Astrofest />} />
         <Route path="/competition" element={<Competition />} />
+        <Route path="/competition/sport-esport" element={<Sport />} />
       </Routes>
     </Layout>
     </>

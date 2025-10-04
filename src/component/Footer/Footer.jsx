@@ -1,24 +1,16 @@
-
 const Footer = () => {
   return (
     <footer id="partner" 
-      className="w-full bg-[#faa51b] text-black text-center py-6" 
-      style={{ 
-        backgroundColor: '#faa51b',
-        marginLeft: 'calc(-50vw + 50%)',
-        marginRight: 'calc(-50vw + 50%)',
-        width: '100vw'
-      }}
+      className="w-full bg-[#faa51b] text-black text-center py-6"
+      style={{ backgroundColor: '#faa51b' }}
     >
       <div className="max-w-7xl mx-auto">
-        {/* Mobile: Stack vertikal dengan card-like sections, Desktop: Horizontal */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-8">
           
-          {/* Logo Section - Kiri */}
           <div className="flex-shrink-0 order-1 md:order-1">
             <div className="rounded-2xl p-4 md:p-0 md:rounded-none">
               <img
-                src="/astro.png"
+                src="/assets/logo/astro.png"
                 alt="85T0 Logo"
                 className="h-20 sm:h-28 md:h-40 w-auto pixelated mx-auto md:mx-0"
                 style={{
@@ -40,16 +32,16 @@ const Footer = () => {
               </h3>
               <div className="grid grid-cols-2 gap-4 md:flex md:gap-6 items-center justify-center">
                 <div className="rounded-xl p-3 md:rounded-none md:p-0">
-                  <img src="/pocari.png" alt="Pocari Sweat" className="h-10 w-auto mx-auto md:mx-0" />
+                  <img src="/assets/footer/pocari.png" alt="Pocari Sweat" className="h-10 w-auto mx-auto md:mx-0" />
                 </div>
                 <div className="rounded-xl p-3 md:rounded-none md:p-0">
-                  <img src="/ortus.png" alt="Ortuseight" className="h-10 w-auto mx-auto md:mx-0" />
+                  <img src="/assets/footer/ortus.png" alt="Ortuseight" className="h-10 w-auto mx-auto md:mx-0" />
                 </div>
                 <div className="rounded-xl p-3 md:rounded-none md:p-0">
-                  <img src="/kahf.png" alt="Kahf" className="h-10 w-auto mx-auto md:mx-0" />
+                  <img src="/assets/footer/kahf.png" alt="Kahf" className="h-10 w-auto mx-auto md:mx-0" />
                 </div>
                 <div className="rounded-xl p-3 md:rounded-none md:p-0">
-                  <img src="/indomie.png" alt="Indomie" className="h-10 w-auto mx-auto md:mx-0" />
+                  <img src="/assets/footer/indomie.png" alt="Indomie" className="h-10 w-auto mx-auto md:mx-0" />
                 </div>
               </div>
             </div>

@@ -1,13 +1,14 @@
-import bg1 from "../../../../public/assets/hero/img/background1.png"
-
+import bg2 from "../../../../public/assets/hero/img/herobg.png"
 
 const Hero = () => {
   return (
     <div
-      className="w-full h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url(${bg1})` }}
+      className="w-screen h-screen bg-cover bg-center flex items-center justify-center overflow-hidden"
+      style={{
+        backgroundImage: `url(${bg2})`,
+      }}
     >
-      {/* Add hero content here if needed */}
+      {/* Hero content here */}
     </div>
   );
 }
